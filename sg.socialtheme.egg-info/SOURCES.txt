@@ -1,0 +1,15 @@
+README.txt
+setup.cfg
+setup.py
+sg/__init__.py
+sg.socialtheme.egg-info/PKG-INFO
+sg.socialtheme.egg-info/SOURCES.txt
+sg.socialtheme.egg-info/dependency_links.txt
+sg.socialtheme.egg-info/entry_points.txt
+sg.socialtheme.egg-info/namespace_packages.txt
+sg.socialtheme.egg-info/not-zip-safe
+sg.socialtheme.egg-info/paster_plugins.txt
+sg.socialtheme.egg-info/requires.txt
+sg.socialtheme.egg-info/top_level.txt
+sg/socialtheme/__init__.py
+sg/socialtheme/tests.py
