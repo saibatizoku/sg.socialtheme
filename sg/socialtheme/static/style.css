@@ -1,0 +1,230 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	min-width:600px;    	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+}
+h1, h2, h3 {
+	margin:.8em 0 .2em 0;
+	padding:0;
+}
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+}
+
+#portal-wrapper{
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#portal-personaltools #anon-personalbar a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#portal-searchbox {
+ margin: 22px 0 12px 0;
+}
+
+#searchGadget, .searchButton {
+    font-size: 10px;
+}
+#adsbar {
+    clear: both; display: block;
+    width: 960px;
+}
+#adsbar div {
+    display: inline-block;
+    margin: 15px 0; border: 1px solid #e4e4e4;
+}
+.adlong, .adshort {
+    height: 90px;
+    background-color: #eeeeee;
+    border 1px solid #c1c1c1;
+}
+.adlong {
+    width: 726px;
+    /*background-image: url(/static/ad_long.jpg);*/
+}
+.adshort {
+    padding: 0 5px;
+    width: 215px;
+}
+#addbar {
+    clear: both;
+    display: block;
+    height: 30px;
+    padding: 14px;
+    text-align: center;
+}
+#addbar li a {
+    height: 16px;
+    width: 105px;
+    padding: 10px;
+	background:#eee;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#c2c2c2'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#c2c2c2)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #fafafa,  #c2c2c2); /* for firefox 3.6+ */ 
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 11px;
+}
+#addbar li a:hover {
+    background:#4A4A4A;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#c8c8c9'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#888888)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #fafafa,  #888888); /* for firefox 3.6+ */ 
+}
+/* 'widths' sub menu */
+#feature, div.carousel {
+    min-height: 150px;
+    background-color: #3d819e;
+    -moz-box-shadow:inset 0 0 20px 10px #2a617f;
+    -webkit-box-shadow:inset 0 0 20px 10px #2a617f;
+    box-shadow:inset 0 0 20px 10px #2a617f;
+}
+#feature {
+    padding-top: 16px;
+}
+div.carousel .tileImage{
+    float: right;
+}
+div.carousel .tileItem > div > a {
+    display: block;
+    float: right;
+    width: 128px; height: 128px;
+    line-height: 128px;
+    margin: 0 25px 0 15px;
+    overflow: hidden; position: relative;
+}
+div.carousel .tileItem .tileHeadline > a,
+div.carousel .tileItem .tileFooter > a,
+div.carousel .tileItem {
+    color: #ffffff;
+}
+div.carousel a:hover {
+    text-decoration: underline;
+}
+#feature p, #feature h2, #feature .publi-info {
+    padding: 0 0 0 28px;
+    color: #ffffff;
+}
+#feature h2 {
+    margin: 0;
+    font-size: 20px;
+}
+#feature h2 a {
+    color: #ffffff;
+}
+#feature h2 a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+#feature img {
+    float: right;
+    margin: 0 24px 11px 11px;
+}
+#breadcrumbs-you-are-here {
+    color: #4d4d4d;
+}
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+}
+/* 2 Column (right menu) settings */
+.rightmenu {
+	background:#eee;		/* right column background colour */
+}
+.rightmenu .colleft {
+	right: 300px;			/* right column width */
+	background:#fff;		/* left column background colour */
+}
+.rightmenu .col1 {
+	width: 645px;			/* left column content width (left column width minus left and right padding) */
+	left: 300px;			/* (right column width) plus (left column left padding) */
+    min-height: 500px;
+}
+.rightmenu .col2 {
+	width: 300px;			/* right column content width (right column width minus left and right padding) */
+	left: 315px;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+}
+#content img.tileImage, #content div.newsImageContainer {
+    float: left;
+    text-align: center;
+}
+#content {
+    background-image: url('images/imgfondo.png');
+    background-repeat: repeat-x;
+    padding: 5px;
+    font-family: verdana, arial, sans serif;
+}
+#content #parent-fieldname-title {
+    color: #005A80;
+    font-size: 25px;
+}
+body.portaltype-news-item #content #parent-fieldname-title,
+body.portaltype-news-item #content #plone-document-byline,
+body.portaltype-news-item #content #parent-fieldname-description {
+    font-family: verdana, arial, sans serif;
+    font-weight: normal;
+    text-transform: none;
+}
+body.portaltype-news-item #content img.tileImage, #content div.newsImageContainer {
+    width: 210px;
+}
+#content .tileItem {
+    border-bottom: 1px solid #D7E8F0;
+}
+#content .tileItem > a {
+    display: block;
+    float: left;
+    width: 64px; height: 64px;
+    line-height: 64px;
+    margin: 0 25px 0 15px;
+    overflow: hidden; position: relative;
+}
+#content .tileItem > a img {
+    margin: 0;
+}
+#content .tileItem > a:hover {
+    overflow: visible;
+    z-index: 1000;
+    border: none;
+}
+#content .tileItem > a:hover img {
+    border: 1px solid #999999;
+    background: #ffffff;
+    padding: 2px;
+}
+#content .tileHeadline {
+    font-size: 16px;
+    color: #005a80;
+}
+#content div.documentByLine {
+    font-style: italic;
+    font-size: 12px;
+}
