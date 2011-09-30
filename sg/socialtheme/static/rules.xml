@@ -13,7 +13,7 @@
     <match path="regex:^/.+" class="other" />
     <rule class="other">
 -->
-    <rules css:if-content="#portal-visual-wrapper">
+    <rules css:if-content="#visual-portal-wrapper">
         <theme href="theme.html" />
         <replace
             theme="/html/head/base"
