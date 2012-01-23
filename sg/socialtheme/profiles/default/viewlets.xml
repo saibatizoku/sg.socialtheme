@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<object>
+    <order manager="plone.belowcontentbody" skinname="*">
+        <viewlet name="sg.social.foot" insert-before="*" />
+    </order>
+</object>
+
