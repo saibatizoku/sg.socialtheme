@@ -9,6 +9,9 @@
     <includeDependencies package="." />
     <include package=".browser" />
 
+    <include package="Products.GenericSetup" file="meta.zcml" />
+    <include package=".upgrades" />
+
     <five:registerPackage package="." initialize=".initialize" />
 
     <genericsetup:registerProfile
