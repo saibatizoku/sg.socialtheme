@@ -18,3 +18,10 @@ form.enabled input.dislike-button:hover, form.enabled input.dislike-button {
 form.disabled .thumbs-down {
     display: none;
 }
+.social-button {
+    float: left;
+    width: 75px;
+    height: 65px;
+    margin: 0 auto;
+    text-align: center;
+}
