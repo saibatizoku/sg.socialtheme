@@ -74,6 +74,37 @@
 
     <browser:viewlet
         name="sg.social.foot"
+        for="sg.pastebin.paste.IPaste"
+        manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
+        template="social_foot.pt"
+        layer="sg.socialtheme.browser.interfaces.IThemeSpecific"
+        order="0"
+        permission="zope2.View"
+        />
+
+    <browser:viewlet
+        name="sg.social.foot"
+        for="sg.questions.question.IQuestion"
+        manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
+        template="social_foot.pt"
+        layer="sg.socialtheme.browser.interfaces.IThemeSpecific"
+        order="0"
+        permission="zope2.View"
+        />
+
+    <browser:viewlet
+        name="sg.social.foot"
+        for="Products.ATContentTypes.interfaces.news.IATNewsItem"
+        manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
+        template="social_foot.pt"
+        layer="sg.socialtheme.browser.interfaces.IThemeSpecific"
+        order="0"
+        permission="zope2.View"
+        />
+
+    <browser:viewlet
+        name="sg.social.foot"
+        for="Products.ATContentTypes.interfaces.link.IATLink"
         manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
         template="social_foot.pt"
         layer="sg.socialtheme.browser.interfaces.IThemeSpecific"
