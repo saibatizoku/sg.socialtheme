@@ -1,4 +1,4 @@
-<div id="sg_social">
+<div id="sg_social" class="visualClear">
     <div class="social-button">
         <iframe src="//www.facebook.com/plugins/like.php?href&amp;send=false&amp;layout=box_count&amp;width=75&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=65" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:75px; height:65px;" allowTransparency="true"></iframe>
     </div>
