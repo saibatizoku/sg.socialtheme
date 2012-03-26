@@ -57,6 +57,7 @@
                     tal:condition="text">
                     <div metal:define-slot="inside" tal:replace="structure text">The body</div>
                 </div>
+                <div tal:replace="structure provider:plone.belowcontentbody" />
             </tal:main-macro>
         </metal:main>
 
