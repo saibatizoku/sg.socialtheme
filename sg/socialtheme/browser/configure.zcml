@@ -7,19 +7,19 @@
 
     <!-- -*- extra stuff goes here -*- -->
     <browser:resourceDirectory
-      name="sg.socialtheme.javascripts"
-      directory="javascripts"
-      />
+        name="sg.socialtheme.javascripts"
+        directory="javascripts"
+        />
 
     <browser:resourceDirectory
-      name="sg.socialtheme.css"
-      directory="stylesheets"
-      />
+        name="sg.socialtheme.css"
+        directory="stylesheets"
+        />
 
     <browser:resourceDirectory
-      name="sg.socialtheme.images"
-      directory="images"
-      />
+        name="sg.socialtheme.images"
+        directory="images"
+        />
 
     <browser:resource
         name="comments.jpg"
@@ -54,15 +54,15 @@
         permission="zope2.View"
         class=".like.TotalLikeWidgetView"
         layer=".interfaces.IThemeSpecific"
-      />
+        />
 
     <browser:page
-      for="*"
-      name="newsitem_view"
-      permission="zope2.View"
-      layer=".interfaces.IThemeSpecific"
-      template="news_view.pt"
-      />
+        for="*"
+        name="newsitem_view"
+        permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+        template="news_view.pt"
+        />
 
     <browser:menuItem
         for="*"
